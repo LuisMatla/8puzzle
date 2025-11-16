@@ -1,24 +1,24 @@
-# 8-Puzzle Solver
+# 🧩 8-Puzzle Solver
 
 Solver del puzzle 8-Puzzle implementado en Python usando búsqueda en amplitud (BFS - Breadth-First Search).
 
-## Descripción
+## 📋 Descripción
 
 Este proyecto resuelve el clásico problema del 8-Puzzle, un rompecabezas deslizante de 3x3 con 8 piezas numeradas y un espacio vacío. El objetivo es reorganizar las piezas desde un estado inicial hasta el estado meta mediante movimientos válidos.
 
-## Características
+## ✨ Características
 
 - ✅ Resolución automática del 8-Puzzle usando búsqueda en amplitud
 - ✅ Visualización interactiva del árbol de búsqueda con Plotly
 - ✅ Código completamente comentado en español
 - ✅ Muestra la secuencia completa de movimientos para llegar a la solución
 
-## Requisitos
+## 📦 Requisitos
 
-- Python 3.x
-- plotly
+- 🐍 Python 3.x
+- 📊 plotly
 
-## Instalación
+## 🚀 Instalación
 
 1. Clona el repositorio:
 ```bash
@@ -31,7 +31,7 @@ cd 8puzzle
 pip install plotly
 ```
 
-## Uso
+## 💻 Uso
 
 Ejecuta el script:
 ```bash
@@ -39,12 +39,12 @@ python 8puzzle.py
 ```
 
 El programa:
-1. Muestra el estado inicial del puzzle
-2. Busca la solución usando búsqueda en amplitud
-3. Muestra la secuencia de movimientos necesarios
-4. Abre una visualización interactiva del árbol de búsqueda en el navegador
+1. 📺 Muestra el estado inicial del puzzle
+2. 🔍 Busca la solución usando búsqueda en amplitud
+3. 📝 Muestra la secuencia de movimientos necesarios
+4. 🌐 Abre una visualización interactiva del árbol de búsqueda en el navegador
 
-## Ejemplo de Salida
+## 📝 Ejemplo de Salida
 
 ```
 estado inicial:
@@ -79,7 +79,7 @@ paso 3:
 [7, 8, ' ']
 ```
 
-## Estructura del Código
+## 🏗️ Estructura del Código
 
 - `Nodo`: Clase que representa un estado del puzzle
   - Generación de estados hijos (arriba, abajo, izquierda, derecha)
@@ -90,26 +90,38 @@ paso 3:
 
 - `main()`: Función principal que ejecuta el solver
 
-## Algoritmo
+## 🔬 Algoritmo
 
 El programa utiliza **búsqueda en amplitud (BFS)** para encontrar la solución:
-- Explora todos los nodos nivel por nivel
-- Garantiza encontrar la solución óptima (menor número de movimientos)
-- Evita estados repetidos usando una lista de visitados
+- 🔄 Explora todos los nodos nivel por nivel
+- 🎯 Garantiza encontrar la solución óptima (menor número de movimientos)
+- 🚫 Evita estados repetidos usando una lista de visitados
 
-## Visualización
+## 📊 Visualización
 
 La visualización muestra:
-- Todos los nodos explorados durante la búsqueda
-- El camino de la solución resaltado en verde
-- Nodos no solución en azul claro
-- Conexiones entre nodos padre e hijo
+- 🌳 Todos los nodos explorados durante la búsqueda
+- 🟢 El camino de la solución resaltado en verde
+- 🔵 Nodos no solución en azul claro
+- 🔗 Conexiones entre nodos padre e hijo
 
-## Autor
+## 👨‍💻 Autor
 
-Luis Matla
+**Luis Fernando Contreras Matla**
 
-## Licencia
+## 📚 Información Académica
+
+Esta práctica fue desarrollada como parte de la Experiencia Educativa:
+
+**Materia:** Introducción a la Inteligencia Artificial
+
+**Universidad:** Universidad Veracruzana
+
+**Facultad:** Ingeniería Eléctrica y Electrónica
+
+**Docente:** Luis Felipe Marín Urias
+
+## 📄 Licencia
 
 Este proyecto es de código abierto y está disponible para uso educativo.
 
