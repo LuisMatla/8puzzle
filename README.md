@@ -13,6 +13,13 @@ Este proyecto resuelve el clásico problema del 8-Puzzle, un rompecabezas desliz
 - ✅ Código completamente comentado en español
 - ✅ Muestra la secuencia completa de movimientos para llegar a la solución
 
+## 🔧 Tecnologías Utilizadas
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Plotly](https://img.shields.io/badge/Plotly-3F4F75?style=for-the-badge&logo=plotly&logoColor=white)
+
+---
+
 ## 📦 Requisitos
 
 - 🐍 Python 3.x
